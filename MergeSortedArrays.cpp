@@ -20,7 +20,7 @@ vector<int> ninjaAndSortedArrays(vector<int>& arr1, vector<int>& arr2, int m, in
 }
 
 // Approach 2(using gap method)
-// Time Complexity O(N)
+// Time Complexity O(logN)
 // Space Complexity O(1)
 
 vector<int> ninjaAndSortedArrays(vector<int>& arr1, vector<int>& arr2, int m, int n) {
