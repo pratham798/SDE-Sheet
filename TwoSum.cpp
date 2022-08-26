@@ -28,7 +28,7 @@
         return res;
     }
 
-// Approach 1
+// Approach 2
 // Time Complexity: O(n)
 // Space Complexity: O(n)
 
