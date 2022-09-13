@@ -88,3 +88,16 @@ int findIntersection(Node *firstHead, Node *secondHead)
     }
     return -1;
 }
+
+//Approach 4
+// Time Complexity: O(2*max(n,m))
+// Space Complexity: O(1)
+
+Node*temp1=firstHead;
+    Node*temp2=secondHead;
+    while(temp1!=temp2)
+    {
+        temp1=temp1==NULL?secondHead:temp1->next;
+        temp2=temp2==NULL?firstHead:temp2->next;
+    }
+    return temp1->data;
