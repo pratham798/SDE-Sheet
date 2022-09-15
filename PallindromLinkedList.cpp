@@ -2,7 +2,7 @@
 // Time Complexity: O(n)
 // Space Complexity: O(n)
 
-bool isPalindrome(LinkedListNode<int> *head) {
+bool isPalindrome(LinkedListNode<int>*head) {
     // Write your code here.
     vector<int>arr;
     while(head!=NULL)
