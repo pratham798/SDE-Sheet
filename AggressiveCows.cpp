@@ -31,3 +31,4 @@ int chessTournament(vector<int> positions , int n ,  int c){
 	}
 	return res;
 }
+//
