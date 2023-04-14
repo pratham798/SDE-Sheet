@@ -9,7 +9,7 @@ bool dfs(vector<vector<int>>&adj,vector<int>&visited,int curr,int par)
     if(visited[it] and it!=par) return true;
     else if(!visited[it] and dfs(adj,visited,it,curr)) return true;
   }
-  return false;
+   return false;
 }
 string cycleDetection (vector<vector<int>>& edges, int n, int m)
 {
